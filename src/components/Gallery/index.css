@@ -1,0 +1,40 @@
+/* Write your code here. */
+.container {
+  padding: 24px;
+  height: 100vh;
+  font-family: 'Roboto';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.galleryContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  /* align-items: ; */
+}
+
+.selectedImage {
+  border: none;
+  border-radius: 12px;
+  width: 70%;
+}
+
+.heading {
+  color: #1e293b;
+}
+
+.description {
+  color: #64748b;
+}
+
+.thumbnailList {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 0px;
+  margin: 0px;
+}

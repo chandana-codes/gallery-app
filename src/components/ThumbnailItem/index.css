@@ -1,0 +1,13 @@
+/* Write your code here. */
+.thumbnailListItem {
+  /* display: flex;
+  flex-direction: row;
+  justify-content: flex-start; */
+  padding: none;
+  margin: none;
+}
+
+.thumbnailButton {
+  background-color: transparent;
+  border: none;
+}
